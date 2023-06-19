@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+@font-face {
+    font-family:"cursedtimer";
+    src: url("D:\Practice\LilProjects\JS\basketball/cursedTimer.ttf");
+}
+
+.coloring
+{
+    font-size: 30px;
+    color: #F94F6D;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+    text-align: center;
+}
+
+.both {
+display: block;
+margin-left:auto;
+margin-right:auto;
+font-size: 40px;
+width: 50%;
+
+}
+
+.change{
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    color:#F94F6D;
+    font-size: 38px;
+    font-family: 'cursedtimer', Arial, sans-serif;
+    
+}
+
+.changing
+{
+   padding: 15px;
+   border: 1px solid white;
+   border-radius: 10px;
+   background-color: #1B244A;
+   color: white;
+   cursor: pointer;
+   font-size:18px ;
+}
+
+.style-btn
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.reset
+{
+    text-align: center;
+    padding-top: 50px;
+}
+
+#resetting
+{
+    border: none;
+    color: #F94F6D;
+    background-color: #1B244A;
+    cursor: pointer;
+    font-size: 30px;
+    
+}
